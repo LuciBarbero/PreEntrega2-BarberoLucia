@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+}
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+.header{
+    background-color: rgb(52, 52, 230);
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    padding: 5px 30px;
+    
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 40px;
+    width: auto;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color:white;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.offcanvas{
+    color:white !important;
+    background-color: rgb(0, 0, 0) !important; 
+}
+
+.fa{
+    margin-top: 15px;
+    font-size: xx-large;
+    width: 30px;
+    height:30px;
+    color:white;
+}
+
+
+.confia {
+    background-color: rgb(245, 245, 245);
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+@media (min-width: 992px){
+    .navbar-toggler{
+        display: none !important;
+    }
+    .navbar-nav{
+        flex-direction: row !important;
+     }
+    .nav-item-menu{
+        padding: 0px 15px;
+    }
+}
+
+@media (max-width: 992px){
+    .redes{
+        display:none;
+    }
+    .menu{
+        display:none !important;
+    }
+}
+
+
