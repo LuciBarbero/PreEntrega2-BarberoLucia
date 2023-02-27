@@ -226,6 +226,9 @@ body{
     .menu{
         display:none !important;
     }
+    .navbar-nav{
+      flex-direction: column;
+    }
 }
 
 @media (max-width: 772px){
