@@ -1,11 +1,9 @@
 body{
     #contactos {
         .contacto{
-            width: auto;
-            height: auto;
+            @include sizes (auto, auto);
             .imagenContacto{
-                width: auto;
-                height: 100%;
+                @include sizes (auto, 100%);
             }
         }
     } 

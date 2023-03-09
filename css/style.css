@@ -51,12 +51,12 @@
     padding: 10px 5px 0px 5px; }
   .header .offcanvas {
     color: white !important;
-    background-color: black !important; }
+    background-color: rgba(0, 0, 0, 0.892) !important; }
 
 footer {
   height: auto;
   width: auto;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.892);
   color: white; }
   footer .btn-enviar {
     padding: 15px 0px; }
@@ -144,7 +144,7 @@ main .caja-contenedora {
     align-items: center;
     justify-content: center; }
   main .caja-contenedora .grid {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.892);
     height: 250px; }
     main .caja-contenedora .grid .prod {
       height: 100%;
@@ -152,10 +152,10 @@ main .caja-contenedora {
       padding: 0px !important; }
 
 body .navSecundaria .nav-link {
-  color: black; }
+  color: rgba(0, 0, 0, 0.892); }
 
 body .navSecundaria .nav-link {
-  color: black; }
+  color: rgba(0, 0, 0, 0.892); }
 
 body #galeria img {
   width: 100%;

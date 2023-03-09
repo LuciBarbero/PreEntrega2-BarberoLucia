@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 main{
     .carousel{
-        background-color: rgba(0, 0, 0, 0.892);
+        background-color: $negro;
     }
 
     .confia {
-        background-color: rgb(245, 245, 245);
+        background-color: $blancoS;
         min-height: 100px;
         display: flex;
         align-items: center;
@@ -13,7 +13,7 @@ main{
     }
 
     .cartas {
-        background-color: rgba(0, 0, 0, 0.892);
+        background-color: $negro;
         min-height: 100px;
         justify-content: space-around;
         .col{
@@ -29,22 +29,20 @@ main{
                 font-family: sans-serif;
                 .flip-card-inner {
                     position: relative;
-                    width: 100%;
-                    height: 100%;
+                    @include sizes (100%, 100%);
                     text-align: center;
                     transition: transform 0.8s;
                     transform-style: preserve-3d;
                     .flip-card-front, .flip-card-back {
-                        box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+                        box-shadow: 0 8px 14px 0 $negro;
                         position: absolute;
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
-                        width: 100%;
-                        height: 100%;
+                        @include sizes (100%, 100%);
                         -webkit-backface-visibility: hidden;
                         backface-visibility: hidden;
-                        border: 1px solid rgb(255, 255, 255);
+                        border: 1px solid $blanco;
                         border-radius: 1rem;
                       }
                         
@@ -57,18 +55,18 @@ main{
                                 font-weight: 900;
                                 text-align: center;
                                 margin: 0;
-                                color:black;
+                                color: $negro;
                               }
                         }
                         .flip-card-back {
                             background: linear-gradient(120deg, rgb(33, 115, 197) 30%, rgb(26, 10, 105) 88%,
                                bisque 40%, rgba(69, 67, 67, 0.603) 48%);
-                            color: white;
+                            color: $blanco;
                             transform: rotateY(180deg);
                             overflow: hidden;
                             .textoBack {
                                 font-size: 17px;
-                                color:white;
+                                color: $blanco;
                                 justify-content: center;
                                 justify-items: center;
                             }

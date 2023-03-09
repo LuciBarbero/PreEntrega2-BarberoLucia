@@ -1,8 +1,7 @@
 footer{
-        height: auto;
-        width: auto;
-        background-color: black;
-        color:white;
+    @include sizes (auto, auto);
+        background-color: $negro;
+        color: $blanco;
         .btn-enviar {
             padding: 15px 0px;
         }

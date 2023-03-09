@@ -1,5 +1,5 @@
 .header{
-    background-color: rgb(52, 52, 230);
+    background-color: $azul;
     position: sticky;
     top:0;
     display: flex;
@@ -11,8 +11,7 @@
     .logo{
         cursor: pointer;
         img{
-            height: 40px;
-            width: auto;
+            @include sizes (auto, 40px);
         }
     }
 
@@ -20,7 +19,7 @@
         flex-direction: row;
         .nav-item-menu {
             .nav-link {
-            color:white;
+            color:$blanco;
             padding: 0px 15px 0px 15px;
             }
         }
@@ -29,12 +28,12 @@
     .fa{
 
         font-size: x-large;
-        color:white;
+        color:$blanco;
         padding: 10px 5px 0px 5px;
     }
     
     .offcanvas{
-        color:white !important;
-        background-color: rgb(0, 0, 0) !important; 
+        color:$blanco !important;
+        background-color: $negro !important; 
     }
 }

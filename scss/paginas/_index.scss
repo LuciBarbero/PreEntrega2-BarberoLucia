@@ -3,18 +3,17 @@ main{
         height: auto;
         width: auto;
         .caja-productos {
-            background-color: rgba(0, 0, 0, 0.892);
-            color: white;
+            background-color: $negro;
+            color: $blanco;
             display: flex;
             align-items: center;
             justify-content: center;
         }
         .grid{
-            background-color: black;
+            background-color: $negro;
             height: 250px;
             .prod {
-                height: 100%;
-                width: 100%;
+                @include sizes (100%, 100%);
                 padding: 0px !important;
             }
         }
