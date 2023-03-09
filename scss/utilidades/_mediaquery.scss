@@ -1,0 +1,32 @@
+body{
+    @media (min-width: 992px){
+        .navbar-toggler{
+            display: none !important;
+        }
+        .navbar-nav{
+            flex-direction: row !important;
+         }
+        .nav-item-menu{
+            padding: 0px 15px;
+        }
+    }
+    
+    @media (max-width: 992px){
+        .redes{
+            display:none;
+        }
+        .menu{
+            display:none !important;
+        }
+        .navbar-nav{
+          flex-direction: column !important;
+        }
+    }
+    
+    @media (max-width: 772px){
+        .cartas {
+            display: none;
+        }
+    
+    }
+}

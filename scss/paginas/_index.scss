@@ -1,0 +1,23 @@
+main{
+    .caja-contenedora{
+        height: auto;
+        width: auto;
+        .caja-productos {
+            background-color: rgba(0, 0, 0, 0.892);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .grid{
+            background-color: black;
+            height: 250px;
+            .prod {
+                height: 100%;
+                width: 100%;
+                padding: 0px !important;
+            }
+        }
+
+    }
+}
