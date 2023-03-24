@@ -27,6 +27,16 @@ body{
         .cartas {
             display: none;
         }
-    
+    }
+    @media (min-width: 772px){
+        .info{
+            display:none;
+        }
+    }
+
+    @media (max-width: 600px){
+        .contacto{
+            padding: 60px 15px !important;
+        }
     }
 }

@@ -26,6 +26,14 @@
   body .cartas {
     display: none; } }
 
+@media (min-width: 772px) {
+  body .info {
+    display: none; } }
+
+@media (max-width: 600px) {
+  body .contacto {
+    padding: 60px 15px !important; } }
+
 .header {
   background-color: #3434e6;
   position: sticky;
@@ -65,7 +73,7 @@ main .carousel {
   background-color: rgba(0, 0, 0, 0.892); }
 
 main .confia {
-  background-color: whitesmoke;
+  background-color: white;
   min-height: 100px;
   display: flex;
   align-items: center;
@@ -88,19 +96,19 @@ main .cartas {
       font-family: sans-serif; }
       main .cartas .col .flip-card .flip-card-inner {
         position: relative;
-        width: 100%;
         height: 100%;
+        width: 100%;
         text-align: center;
         transition: transform 0.8s;
         transform-style: preserve-3d; }
         main .cartas .col .flip-card .flip-card-inner .flip-card-front, main .cartas .col .flip-card .flip-card-inner .flip-card-back {
-          box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.892);
           position: absolute;
           display: flex;
           flex-direction: column;
           justify-content: center;
-          width: 100%;
           height: 100%;
+          width: 100%;
           -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
           border: 1px solid white;
@@ -113,7 +121,7 @@ main .cartas {
             font-weight: 900;
             text-align: center;
             margin: 0;
-            color: black; }
+            color: rgba(0, 0, 0, 0.892); }
         main .cartas .col .flip-card .flip-card-inner .flip-card-back {
           background: linear-gradient(120deg, #2173c5 30%, #1a0a69 88%, bisque 40%, rgba(69, 67, 67, 0.603) 48%);
           color: white;
@@ -128,15 +136,22 @@ main .cartas {
       transform: rotateY(180deg); }
 
 body #contactos .contacto {
-  width: auto;
-  height: auto; }
+  height: auto;
+  width: auto; }
   body #contactos .contacto .imagenContacto {
-    width: auto;
-    height: 100%; }
+    height: 100%;
+    width: auto; }
+
+body .info {
+  background-color: rgba(0, 0, 0, 0.892);
+  padding: 30px 10px 0px 10px;
+  text-align: center;
+  color: white; }
 
 main .caja-contenedora {
   height: auto;
-  width: auto; }
+  width: auto;
+  background-color: red; }
   main .caja-contenedora .caja-productos {
     background-color: rgba(0, 0, 0, 0.892);
     color: white;
@@ -158,13 +173,16 @@ body .navSecundaria .nav-link {
   color: rgba(0, 0, 0, 0.892); }
 
 body #galeria img {
-  width: 100%;
   height: 100%;
+  width: 100%;
   border-radius: 5px;
   padding: 5px; }
 
 body #galeriaSucursal img, body #galeriaSucursal iframe {
-  width: 100%;
   height: 100%;
+  width: 100%;
   border-radius: 5px;
   padding: 20px; }
+
+body #galeriaSucursal .DirecSucursal {
+  padding: 0px 22px !important; }

@@ -3,9 +3,9 @@ $blanco: white;
 $azul:#3434e6;
 
 $paletaDeColores: (
-    $negro: rgba(0, 0, 0, 0.892)
-    $blanco: white
-    $azul:#3434e6
+    $negro: rgba(0, 0, 0, 0.892),
+    $blanco: white,
+    $azul:#3434e6,
 );
 
 @mixin sizes ($width, $height){
